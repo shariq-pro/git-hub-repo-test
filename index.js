@@ -1,7 +1,3 @@
-const sayHello = function (name) {
-    console.log("Hello " + name + "!")
-  }
-  
-  module.exports = {
-    sayHello
-  }
+import './App.css';
+import Wallet from './src/Wallet';
+export default Wallet;
