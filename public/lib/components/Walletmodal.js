@@ -269,7 +269,7 @@ function Walletmodal(props) {
                     <Row className="pt-1 text-center">
                       
                     <Col md={12} ><span className="metamask_modal_inner_text pb-1">Scan with Coinbase Wallet</span></Col>
-                    <Col md={12} >
+                    <Col md={12} style={{marginTop:'25%'}}>
                     {wallet_msg !== null ?<>
                       <> 
                       <span className="metamask_modal_subtext" style={{fontSize:'20px'}} ><FontAwesomeIcon icon={faClose} style={{color:'red',fontSize:'20px'}} /> {wallet_msg}</span>

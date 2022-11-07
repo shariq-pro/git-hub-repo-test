@@ -1,11 +1,11 @@
-import React from "react";
-import { Wallet } from "./lib";
-
+import logo from './logo.svg';
+import './App.css';
+import { Wallet } from './lib';
 
 function App() {
   return (
     <div className="App">
- <Wallet/>
+     <Wallet/>
     </div>
   );
 }
